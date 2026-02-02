@@ -1,3 +1,11 @@
+.slides {
+  /* position: relative; */
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 15px;
+  object-fit: cover;
+}
 #product-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -20,10 +28,28 @@
   border-radius: 10px;
 }
 
-.price {
-  font-weight: bold;
-  color: #9a3412;
-  font-size: 18px;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffaf4;
 }
+
+.navbar {
+  background-color: #f3e5d8 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #8b4513 !important;
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
 
 
